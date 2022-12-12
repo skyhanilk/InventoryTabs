@@ -51,7 +51,7 @@ repositories {
 }
 
 dependencies {
-	modImplementation "com.github.Andrew6rant:InventoryTabs:inventorytabs-0.6.1-1.19.x"
+	implementation fg.deobf("com.github.Andrew6rant:InventoryTabs:inventorytabs-0.6.1-1.19.x")
 }
 ```
 
