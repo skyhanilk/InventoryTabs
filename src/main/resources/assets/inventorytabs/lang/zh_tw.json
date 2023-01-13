@@ -1,13 +1,13 @@
 {
-  "text.autoconfig.inventory_tabs.title": "Inventory Tabs Config",
-  "text.autoconfig.inventory_tabs.option.doSightChecksFlag": "Check if block is in line of sight",
-  "text.autoconfig.inventory_tabs.option.doSightChecksFlag.@Tooltip": "If §cNo§r, you are able to click on inventories through walls",
-  "text.autoconfig.inventory_tabs.option.rotatePlayer": "Rotate the player to face the tab's block",
-  "text.autoconfig.inventory_tabs.option.rotatePlayer.@Tooltip": "If §aYes§r, the player will snap to position",
-  "text.autoconfig.inventory_tabs.option.excludeTab": "§nDo not show§r tabs for these blocks:",
-  "text.autoconfig.inventory_tabs.option.excludeTab.@Tooltip": "Format: §emod_name:block_id§r, or §emod_name:tag_id§r",
-  "text.autoconfig.inventory_tabs.option.includeTab": "§nForce show§r tabs for these blocks:",
-  "text.autoconfig.inventory_tabs.option.includeTab.@Tooltip": "Format: §emod_name:block_id§r",
-  "text.autoconfig.inventory_tabs.option.debugEnabled": "Print debugging information (tab IDs added/removed) in the log",
-  "inventorytabs.key.next_tab": "Cycle Inventory Tab"
+  "text.autoconfig.inventory_tabs.title": "物品欄選項卡（Inventory Tabs）設定",
+  "text.autoconfig.inventory_tabs.option.doSightChecksFlag": "檢查是否在視線內",
+  "text.autoconfig.inventory_tabs.option.doSightChecksFlag.@Tooltip": "如果§c否§r，你可以穿過牆壁點擊物品欄",
+  "text.autoconfig.inventory_tabs.option.rotatePlayer": "旋轉玩家以面向選項卡對應的方塊",
+  "text.autoconfig.inventory_tabs.option.rotatePlayer.@Tooltip": "如果§a是§r，玩家將旋轉朝向",
+  "text.autoconfig.inventory_tabs.option.excludeTab": "§n不顯示§r這些方塊的選項卡：",
+  "text.autoconfig.inventory_tabs.option.excludeTab.@Tooltip": "格式：§e模组名稱：方塊id§r，或§e模组名稱：標籤id§r",
+  "text.autoconfig.inventory_tabs.option.includeTab": "§n強制顯示§r這些方塊的選項卡：",
+  "text.autoconfig.inventory_tabs.option.includeTab.@Tooltip": "格式：§e模组名稱：方塊§r",
+  "text.autoconfig.inventory_tabs.option.debugEnabled": "在日誌中輸出調試訊息（添加/刪除選項卡ID）",
+  "inventorytabs.key.next_tab": "循環物品欄選項卡"
 }
