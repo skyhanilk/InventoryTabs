@@ -47,19 +47,3 @@ public class SimpleBlockTabProvider extends BlockTabProvider {
         return this.blockIds.stream().map(Registry.BLOCK::get).collect(Collectors.toSet());
     }
 
-    @Override
-    public boolean matches(World world, BlockPos pos) {
-        BlockState blockState = world.getBlockState(pos);
-
-        if (blockIds.contains(Registry.BLOCK.getId(blockState.getBlock()))) {
-            return true;
-        }
-
-        return false;
-    }
-
-    @Override
-    public Tab createTab(World world, BlockPos pos) {
-        return new SimpleBlockTab(Registry.BLOCK.getId(world.getBlockState(pos).getBlock()), pos);
-    }
-}
